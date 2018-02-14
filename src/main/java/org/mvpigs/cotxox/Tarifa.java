@@ -48,6 +48,9 @@ public class Tarifa {
         } return minutos * costeMinuto;
     }
 
+    public static double getCosteTotalEsperado(Carrera carrera) {
+        return 0; /* Para continuar he de crear la clase carrera asi que espero a realizarla antes de seguir con esta. */
+    }
 
     
 }
