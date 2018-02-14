@@ -36,12 +36,16 @@ public class Tarifa {
 
     public static double getCosteDistancia(double distancia) {
         
-        return distancia * costeMilla;
+        if (distancia <= 0) {
+            return 0;
+        } return distancia * costeMilla;
     }
 
     public static double getCosteTiempo(double minutos) {
 
-        return minutos * costeMinuto;
+        if (minutos <= 0) {
+            return 0;
+        } return minutos * costeMinuto;
     }
 
 
