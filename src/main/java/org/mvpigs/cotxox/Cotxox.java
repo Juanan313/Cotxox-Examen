@@ -1,6 +1,8 @@
 package org.mvpigs.cotxox;
 
 import java.util.ArrayList;
+import org.mvpigs.cotxox.Conductores.Conductor;
+import org.mvpigs.cotxox.Conductores.PoolConductores;
 
 
 public class Cotxox {
@@ -47,7 +49,7 @@ public class Cotxox {
 		 * La flota es un objeto de tipo PoolConductores.
 		 */
 
-		ArrayList<Conductor> poolConductores = new ArrayList<>();
+		ArrayList<Conductor> poolConductores = new ArrayList<Conductor>();
 		Conductor conductor = null;
 
 		// creamos objetos conductor y los metemos en el array
